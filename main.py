@@ -68,7 +68,7 @@ def main():
                 screen.clearscreen()
                 main()
             else:
-                break
+                game = False
         screen.update()
     screen.mainloop()
 
